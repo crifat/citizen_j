@@ -28,7 +28,13 @@ class PostsController < ApplicationController
   # GET /posts
   # GET /posts.json
   def index
-    @posts = Post.all
+     @posts = Post.all
+    if params[:category].present?
+      @posts = Post.where(category: params[:category])
+      respond_to do |format|
+        format.json { render json: {success: 1, posts: @posts} }
+      end
+    end
   end
 
   # GET /posts/1
