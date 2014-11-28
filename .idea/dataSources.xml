@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3403521752">
+    <data-source source="LOCAL" name="Rails citizen_journalism: development" uuid="f0611eab-378d-4c8e-82ec-621d2de7d310">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/citizen_journalism_development</jdbc-url>
+      <user-name>lollypoplab</user-name>
+      <user-password>df9bdf98df99df9e</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails citizen_journalism: test" uuid="35d0e351-618f-4c68-af1c-9d8acf459190">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/citizen_journalism_test</jdbc-url>
+      <user-name>lollypoplab</user-name>
+      <user-password>df9bdf98df99df9e</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails citizen_journalism: production" uuid="396b1f09-e822-4f67-9da8-f9b3d2665362">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/citizen_journalism_production</jdbc-url>
+      <user-name>citizen_journalism</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfe9dfe3dffedfe3dff0dfefdfe4dff5dfe0dfe5dfffdff8dfe4dfebdfe6dfe3dff9dfe7dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails citizen_journalism: development" uuid="f0611eab-378d-4c8e-82ec-621d2de7d310">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails citizen_journalism: test" uuid="35d0e351-618f-4c68-af1c-9d8acf459190">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails citizen_journalism: production" uuid="396b1f09-e822-4f67-9da8-f9b3d2665362">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
