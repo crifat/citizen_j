@@ -29,8 +29,10 @@ class PostsController < ApplicationController
   # GET /posts.json
   def index
      @posts = Post.all
+     @posts = @posts.paginate(:page => params[:page], :per_page => 15)
     if params[:category].present?
-      @posts = Post.where(category: params[:category])
+      @posts = Post.where(category: params[:category]).order('created_at desc')
+      @posts = @posts.paginate(:page => 1, :per_page => 15)
       respond_to do |format|
         format.json { render json: {success: 1, posts: @posts} }
       end
